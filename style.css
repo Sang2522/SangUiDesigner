@@ -1,0 +1,32 @@
+:root {
+    --bl: #2F2D3B;
+    --gr: #E3E2E8;
+    --rd: #F74B57;
+    --wh: #FAF9FF;
+    --be: #343353;
+    --yl: #F8D74C;
+    --bg: #F5F5F5;
+  }
+/* Colorize-zoom Container */
+#Zom {
+  transition: transform .5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+/* The Transformation */
+#Zom:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hover normal */
+#Zo {
+  transition: transform .5s, filter 1.5s ease-in-out;
+}
+#Zo:hover {
+  transform: scale(1.1);
+}
+/* Hover Normal End */
