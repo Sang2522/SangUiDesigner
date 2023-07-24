@@ -11,7 +11,7 @@
 /* Colorize-zoom Container */
 #Zom {
   transition: transform .5s, filter 1.5s ease-in-out;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 
 /* The Transformation */
@@ -85,4 +85,13 @@ html {
   border-radius: 100%;
   border: #F5F5F5 solid 2px;
   /* box-shadow: 0 4px 8px 0 rgb(255, 255, 255) */
+}
+
+/* Step */
+
+.StepProgress {
+  position: relative;
+  padding: 10px;
+  /* list-style: none; */
+  /* border-left: 3px solid var(--rd); */
 }
