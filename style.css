@@ -1,12 +1,14 @@
 :root {
     --bl: #2F2D3B;
-    --gr: #E3E2E8;
+    --gr: #9b9b9b;
     --rd: #F74B57;
     --wh: #FAF9FF;
     --be: #343353;
     --yl: #F8D74C;
     --bg: #F5F5F5;
     --pp: #6D6FD6;
+    --gre: #248A3D;
+    --bs: 0px 4px 32px 0px rgba(0, 0, 0, 0.017);
   }
 /* Colorize-zoom Container */
 #Zom {
