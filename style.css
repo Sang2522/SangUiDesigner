@@ -8,6 +8,8 @@
     --bg: #F5F5F5;
     --pp: #6D6FD6;
     --gre: #248A3D;
+    --blu: #87CEEB;
+    --org: #EF5222;
     --bs: 0px 4px 32px 0px rgba(0, 0, 0, 0.017);
   }
 /* Colorize-zoom Container */
@@ -38,6 +40,15 @@ html {
   width: fit-content;
   padding: 12px;
   background-color: var(--rd);
+  border-radius: 24px;
+  font-weight: 500;
+  color: var(--wh);
+  border: none;
+}
+.but2{
+  width: fit-content;
+  padding: 12px;
+  background-color: var(--blu);
   border-radius: 24px;
   font-weight: 500;
   color: var(--wh);
