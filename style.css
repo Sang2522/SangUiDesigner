@@ -12,6 +12,7 @@
     --org: #EF5222;
     --bs: 0px 4px 32px 0px rgba(0, 0, 0, 0.017);
   }
+  
 /* Colorize-zoom Container */
 #Zom {
   transition: transform .5s, filter 1.5s ease-in-out;
