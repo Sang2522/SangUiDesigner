@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body style="background-color: var(--wh)">
-  <div class="container-md sticky-top">
+  <div class="container-fluid sticky-top">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!-- <a class="navbar-brand " href="#">SANG DESIGNER</a> -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
         <h1>Hi, I'm Sang</h1>
         <h5>UI/UX Designer</h5>
         <p>Junior UI/UX Designer App Web design and frontend delvelopment.</p>
-        <button class="but" id="Zo">Contact me <i class="fa-regular fa-paper-plane"></i></button>
+        <button class="but" id="Zo">Contact me<i class="fa-regular fa-paper-plane"></i></button>
         <div class="row p-3">
           <a href="https://www.instagram.com/sang.saan/" id="Zo" style="color: var(--bl);"><i class="fa-brands fa-instagram fa-xl mx-2"></i></a>
           <a href="https://www.facebook.com/nguyensang2522/" id="Zo" style="color: var(--bl);"><i class="fa-brands fa-facebook fa-xl mx-2"></i></a>
@@ -70,21 +70,44 @@
 <!-- About Me (1) -->
   <div class="container-fluid" style="background-color: var(--wh);border-radius: 24px;">
     <div class="container-lg">
-    <div class="row p-2 mx-2  align-items-center">
+    <div class="row align-items-center">
 
-      <div class="col-md">
-       <img src="images/IMG_8473 2.png" style="border-radius: 48px;" width="100%" alt="">
+      <div class="col-md d-flex justify-content-center">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+        
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/Object/Other 13.png" alt="Los Angeles">
+            </div>
+        
+            <div class="item">
+              <img src="images/Object/Other 07.png" alt="Chicago">
+            </div>
+        
+            <div class="item">
+              <img src="images/Object/Other 10.png" alt="New York">
+            </div>
+          </div>
+        </div>
+       <!-- <img src="images/IMG_8473 2.png" style="border-radius: 24px;" width="90%" alt=""> -->
       </div>
 
       <div class="col-lg mt-4 pt-2">
-        <div class="row">
+        <div class="row p-1">
           <p>“Hello, recruiters! My name is Nguyễn Phước Sang and I am a Multimedia Designer. Throughout my career, I have held various positions and discovered that my true passion and ultimate goal is to become a UI/UX designer. I am currently seeking new challenges in a dynamic and fun work environment.
             I am confident that with my contributions, we can collaborate to create outstanding projects in the future.”</p>
         </div>
         <div class="row mt-2">
-          <div class="col"><h3 style="font-weight: 700;">02+</h3><p>Years experience</p></div>
-          <div class="col"><h3 style="font-weight: 700;">20+</h3><p>Compiled project</p></div>
-          <div class="col"><h3 style="font-weight: 700;">+100</h3><p>Cup of Coffee</p></div>
+          <div class="col"><h3 style="font-weight: 700;"><i class="fa-solid fa-calendar-days"></i> 02+</h3><p>Years experience</p></div>
+          <div class="col"><h3 style="font-weight: 700;"><i class="fa-solid fa-list-check"></i> 20+</h3><p>Compiled project</p></div>
+          <div class="col"><h3 style="font-weight: 700;"><i class="fa-solid fa-mug-saucer"></i> +100</h3><p>Cup of Coffee</p></div>
         </div>
         <div class="row mt-2">
           <div class="but" id="Zo"><a href="images/SANG CV.pdf" style="color: var(--wh);text-decoration: none;" download="NGUYEN PHUOC SANG CV">Download  <i class="fa-solid fa-file"></i></a></div>
